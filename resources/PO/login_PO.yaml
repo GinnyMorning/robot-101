@@ -1,0 +1,11 @@
+loginUserName: id:loginusername
+loginPW: id:loginpassword
+signupUserName: id:sign-username
+signupPW: id:sign-password
+signupBtn: //button[contains(text(),'Sign up')]
+loginBtn: //button[contains(text(),'Log in')]
+closeBtn: //*[@id="signInModal"]/div/div/div[3]/button[1]
+expMessage:
+  - Wrong password.
+  - User does not exist.
+  - Please fill out Username and Password.

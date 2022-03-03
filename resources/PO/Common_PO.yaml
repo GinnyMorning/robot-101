@@ -1,0 +1,16 @@
+loginLink: id:login2
+signupLink: id:signin2
+contactUsLink: //a[contains(text(),'Contact')]
+aboutUsLink: //a[contains(text(),'About us')]
+nameOfUser: //*[@id="nameofuser"]
+logOut: //*[@id="logout2"]
+aboutUsModal: //*[@id="videoModal"]
+contactUsModal: //*[@id="exampleModal"]
+signinModal: //*[@id="signInModal"]
+category: //*[@id="cat"]
+catPhones: //a[contains(text(),'Phones')]
+catLaptops: //a[contains(text(),'Laptops')]
+catMonitors: //a[contains(text(),'Monitors')]
+itemList: //*[@id="tbodyid"]
+navicon: //*[@id="nava"]
+cartLink: //a[contains(text(),'Cart')]
