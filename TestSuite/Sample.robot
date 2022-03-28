@@ -4,7 +4,7 @@ Library    RequestsLibrary
 
 *** Variables ***
 ${URL}        http://google.com
-${BROWSER}    Chrome
+${BROWSER}    %{BROWSER}
 
 
 *** Test Cases ***

@@ -1,6 +1,7 @@
 *** Settings ***
 Library          String
-Resource         ../../resources/authen.resource    ../../resources/Common.resource
+Resource         ../../resources/authen.resource    
+Resource         ../../resources/Common.resource
 Test Setup       Test set up
 Test Teardown    Test tear down
 

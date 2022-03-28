@@ -3,12 +3,16 @@ Library      SeleniumLibrary
 Variables    general_var.yaml
 Variables    PO/Common_PO.yaml
 
+***Variables***
+${BROWSER}    %{BROWSER}
+${DELAY}      %{DEPLAY_TIME}
+
 ***Keywords***
 Test set up
-    Open Browser               ${HOST}    ${BROWSER}
+    Open Browser               ${HOST}     ${BROWSER}
     Maximize Browser Window
     Title Should Be            STORE
-    Set Selenium Speed         0.5        #reduce selenium speed to make sure element is present and active
+    Set Selenium Speed         ${DELAY}    #reduce selenium speed to make sure element is present and active
 
 Test tear down
     Set Selenium Speed    0

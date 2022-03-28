@@ -1,5 +1,6 @@
 *** Settings ***
 Documentation    Sample resource file for authentication flow
+Resource         Common.resource
 Library          SeleniumLibrary
 Variables        general_var.yaml                                
 Variables        PO/login_PO.yaml                                
