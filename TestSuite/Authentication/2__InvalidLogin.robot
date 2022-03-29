@@ -17,6 +17,6 @@ Test with long password                  1                                128736
 Test with special char in username       1*&^                             1
 Test with special char in password       1                                !@#$%^&*
 Test with email format username          t@gmail.com                      1
-Test with sql injection                  105 OR {1}={1}                   1
+Test with sql injection                  105 OR 1=1                       1
 Test sql injection 2                     \" or \"\"\=\"                   \" or \\"\=\"
-Test sql inkection 3                     105; DROP TABLE Suppliers        1                            
+Test sql inkection 3                     105; DROP TABLE Users            1                            
